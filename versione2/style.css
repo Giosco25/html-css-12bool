@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    border:1px solid black;
+}
+.container::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.blocchi{
+    height: 200px;
+    background-color: lightgrey;
+    border:1px solid white;
+}
+
+.nero{
+    background-color: black;
+}
+.giallo{
+    background-color: yellow;
+}
