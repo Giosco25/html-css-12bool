@@ -16,6 +16,9 @@
 }
 .blocchi{
     height: 200px;
-    background-color: gold;
+    background-color: lightgreen;
     border:1px solid white;
+}
+.nero{
+    background-color: black;
 }
